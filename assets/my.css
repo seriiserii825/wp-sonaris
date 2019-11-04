@@ -2145,6 +2145,13 @@ img.mfp-img {
 		right: 20px;
 	}
 }
+@media screen and (min-width: 670px) {
+	.header-left .search {
+		display: flex !important;
+	}
+
+}
+
 
 @media screen and (max-width: 390px) {
 	.header-left .search-icon {
@@ -2194,6 +2201,14 @@ img.mfp-img {
 .header-brand:hover {
 	opacity: 0.75
 }
+.header-nav {
+	margin-right: 10px;
+}
+@media screen and (max-width: 1000px) {
+	.header-nav {
+		margin-right: 0;
+	}
+}
 
 .header-nav .list {
 	display: -webkit-box;
@@ -2221,7 +2236,7 @@ img.mfp-img {
 	line-height: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
-	padding: 20px 10px
+	padding: 8px 10px
 }
 
 .header-nav .list-item-link:after,
