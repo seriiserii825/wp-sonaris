@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700&amp;display=swap&amp;subset=cyrillic"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="hidden">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="print_icon">
+          <path d="M57 18.995c.009 0 .017-.005.025-.005C60.873 18.976 64 15.842 64 11.991c0-3.859-3.141-7-7-7H7c-3.859 0-7 3.141-7 7 0 3.851 3.127 6.984 6.975 6.999.009 0 .017.005.025.005h7.003v1.998H7c-3.859 0-7 3.141-7 7 0 3.851 3.128 6.985 6.976 6.999.009 0 .017.005.025.005h7.002v23.012a1 1 0 0 0 1 1h31.996a.973.973 0 0 0 .333-.067c.014-.005.028-.003.042-.008.13-.053.245-.132.342-.231l5.991-5.991a.99.99 0 0 0 .217-.326.991.991 0 0 0 .077-.382v-17.01H57c3.859 0 7-3.141 7-7s-3.141-7-7-7h-2.999v-1.998H57zm-4.999 32.008h-5.004a1 1 0 0 0-1 1v5.006H16.003V19.001h35.998zm-4.004 2h2.59l-2.59 2.59zM2 27.993c0-2.757 2.243-5 5-5s5 2.243 5 5-2.243 5-5 5-5-2.243-5-5zm9.885 5.004a6.975 6.975 0 0 0 .005-10.004h2.113v10.004zM57 22.993c2.757 0 5 2.243 5 5s-2.243 5-5 5h-2.999v-10zm0-16.002c2.757 0 5 2.243 5 5s-2.243 5-5 5c-.007 0-.013.004-.02.004H11.885a6.975 6.975 0 0 0 .005-10.004zm-55 5c0-2.757 2.243-5 5-5s5 2.243 5 5-2.243 5-5 5-5-2.243-5-5z"></path>
+          <path d="M10 27.993c0-1.654-1.346-3-3-3s-3 1.346-3 3 1.346 3 3 3 3-1.346 3-3zm-4 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM10 11.995c0-1.654-1.346-3-3-3s-3 1.346-3 3 1.346 3 3 3 3-1.346 3-3zm-4 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM22.033 44.287c.02.062.044.117.074.174a.994.994 0 0 0 .25.297c.027.021.043.051.072.07.032.021.069.03.104.047a1.014 1.014 0 0 0 .441.114h24.001c.04 0 .073-.019.112-.022.069-.008.138-.019.205-.041.056-.02.105-.044.156-.072.022-.012.046-.017.067-.03s.03-.034.05-.048a1.016 1.016 0 0 0 .266-.301.98.98 0 0 0 .123-.384c.004-.035.021-.065.021-.102 0-.029-.015-.054-.017-.082a.957.957 0 0 0-.042-.209 1.063 1.063 0 0 0-.064-.165c-.016-.029-.018-.063-.036-.092l-9-13.985c-.002-.004-.006-.005-.009-.009-.037-.057-.095-.1-.145-.148-.045-.045-.084-.098-.137-.133l-.01-.01c-.044-.028-.095-.034-.141-.055-.069-.031-.135-.067-.208-.081-.066-.014-.132-.005-.198-.005-.062 0-.123-.008-.185.004-.078.016-.148.053-.221.086-.043.02-.089.024-.13.051-.004.002-.006.007-.01.009-.054.036-.094.091-.142.138-.048.048-.104.089-.14.145-.002.003-.007.005-.009.009l-4.683 7.276-2.138-3.288-.007-.007c-.035-.054-.091-.093-.137-.14-.048-.048-.089-.104-.144-.141l-.007-.007c-.042-.027-.09-.033-.134-.053-.072-.033-.142-.072-.219-.087-.064-.013-.128-.004-.192-.004s-.128-.009-.192.004c-.076.015-.146.054-.217.086-.045.021-.094.026-.136.054l-.007.007c-.055.036-.094.092-.142.139-.047.048-.103.087-.139.142l-.007.007-6.5 10c-.017.025-.018.054-.031.08a.916.916 0 0 0-.073.184.98.98 0 0 0-.04.198c-.002.029-.017.054-.017.083 0 .035.017.064.02.099.011.067.024.132.044.198zm11.236-5.131a.443.443 0 0 0 .029-.046l4.676-7.266 7.172 11.145H30.802zm-4.845 3.833h-3.607l4.657-7.164 1.789 2.752zM24.976 30.972c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.345 3 3 3zm0-4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+        </symbol>
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="inter_icon">
+          <path d="M63 3.021H22.18c-.059-.011-.112-.035-.174-.035H1a1 1 0 0 0-1 1c0 .008.004.015.005.022 0 .004-.003.008-.003.013v6.959L0 10.99v7c0 .007.004.013.004.02l-.002.01v6.971L0 25v7c0 .005.003.009.003.014l-.001.004V39L0 39.01v7l.002.01v6.984l-.002.01v7a1 1 0 0 0 1 1h62a1 1 0 0 0 1-1V4.021a1 1 0 0 0-1-1zM50.998 52.014v-4.998H52v4.998zm0-6.998v-5h1.987l.015.003.015-.003H62v5zM62 31.018H50.998v-5h1.992l.01.002.01-.002H62zm-11.002 6.998v-4.998H52v4.998zm0-13.998V19.02H52v4.998zM54 38.016v-4.998h8v4.998zm0-13.998V19.02h8v4.998zm0-13.998V5.021h8v4.998h-8zm-1.01 2l.01.002.01-.002H62v5H50.998v-5zM54 47.016h8v4.998h-8zM42.006 5.021H52v4.998h-1.002V7.002a1 1 0 0 0-1-1H33v-.98h9.006zm-19 52.978h17.988v1.015H23.006zm-8.004-2V8.002h33.996v47.997zm-13-3.985V47.01H10v5.004zM21.82 4.986c.059.011.112.035.174.035H31v.98H14.002a1 1 0 0 0-1 1V9.99H12V4.986zM2 45.01v-5h8.956c.016.001.028.009.044.009s.028-.008.044-.009h1.958v5zm8.846-33.02c.052.008.1.031.154.031s.103-.023.155-.031h1.847v5H2v-5zM2 31v-5h8.903c.033.003.063.02.097.02s.063-.016.097-.02h1.905v5zm11.002-12.01V24H12v-5.01zm0 14.01v5.01H12V33zM10 18.99V24H2.002v-5.01zM10 33v5.01H2.002V33zm0-23.01H2.002V4.986H10zm2 37.02h1.002v5.004H12zM2 54.014h8.98c.007 0 .013.004.02.004s.013-.004.02-.004h1.982v2.985a1 1 0 0 0 1 1h6.992v1.015H2zm41.006 5v-1.015h6.992a1 1 0 0 0 1-1v-2.985h1.982c.007 0 .013.004.02.004s.013-.004.02-.004H62v5z"></path>
+          <path d="M46.996 9.003h-29.99a1 1 0 0 0-1 1v21.968c0 .01-.006.019-.006.029s.006.019.006.029v21.967a1 1 0 0 0 1 1h29.99a1 1 0 0 0 1-1V10.003a1 1 0 0 0-1-1zM24.854 31l4.646-7.148 1.789 2.752L28.462 31zm8.439-3.813c.013-.017.022-.034.033-.052L38 19.873 45.16 31H30.84zm12.703-16.184v17.6l-7.155-11.119c-.002-.004-.007-.005-.009-.009-.036-.055-.092-.096-.14-.144-.047-.047-.088-.102-.143-.138l-.009-.009c-.042-.027-.09-.033-.134-.053-.071-.032-.139-.069-.215-.084-.067-.014-.134-.005-.202-.004-.061 0-.12-.008-.18.003-.082.016-.156.055-.231.091-.04.019-.083.022-.12.047-.004.002-.005.006-.009.008-.055.037-.097.092-.145.14-.047.047-.102.088-.138.143-.002.003-.007.005-.009.009l-4.683 7.277-2.139-3.289-.005-.005c-.039-.059-.099-.102-.149-.153-.045-.043-.082-.096-.133-.129-.002-.002-.003-.005-.006-.006-.039-.025-.083-.03-.124-.049-.075-.036-.148-.075-.229-.091-.063-.013-.127-.003-.191-.003s-.128-.009-.191.003c-.083.016-.157.056-.233.093-.04.019-.083.023-.12.047l-.006.006c-.059.039-.102.098-.152.149-.043.044-.096.081-.129.132l-.007.007L22.469 31h-4.463V11.003zm-27.99 41.993V33h4.87c.041.005.082.018.123.018.049 0 .096-.011.144-.018h5.78c.025.002.051.011.076.011.029 0 .058-.008.088-.011h16.909v19.996z"></path>
+          <path d="M42 37H21.996a1 1 0 1 0 0 2H42a1 1 0 1 0 0-2zM42 40H21.996a1 1 0 1 0 0 2H42a1 1 0 1 0 0-2zM38 43H25.996a1 1 0 1 0 0 2H38a1 1 0 1 0 0-2zM23 19c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3zm0-4a1.001 1.001 0 1 1-1 1c0-.551.448-1 1-1zM28.03 47.999h-.01c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0-.001-2zM32.03 47.999h-.01c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0-.001-2zM36.03 47.999h-.01c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0-.001-2z"></path>
+        </symbol>
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="uvlak_icon">
+          <path d="M57.028 24.506h-.011c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0 0-2zM57.028 27.5h-.011c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0 0-2zM60.03 24.506h-.01c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0-.001-2zM60.03 27.5h-.01c-.552 0-.994.447-.994 1s.452 1 1.005 1a1 1 0 1 0-.001-2zM57 23.5h3a1 1 0 1 0 0-2h-3a1 1 0 1 0 0 2z"></path>
+          <path d="M1 55.5h5a1 1 0 0 0 1-1v-2h50v2a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-35a1 1 0 0 0-1-1H18.002v-1h1a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h1v1H1a1 1 0 0 0-1 1v35a1 1 0 0 0 1 1zm12.998-26h38.999v1H51a1 1 0 1 0-2 0h-2.002a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-1.961l-.02-.002-.02.002a1 1 0 1 0-2 0h-2a1 1 0 1 0-2 0h-2a1 1 0 1 0-1.999 0h-1.999v-1zm13.518 10.849l1.789 2.753-2.829 4.396h-3.607zm8.5-3.98l7.162 11.129H28.854l2.456-3.816a.787.787 0 0 0 .031-.048zm9.54 11.129l-8.7-13.518c-.002-.004-.007-.006-.009-.009-.038-.058-.096-.101-.146-.149-.045-.044-.083-.098-.135-.132-.005-.003-.007-.007-.011-.01-.046-.029-.098-.036-.146-.057-.066-.029-.13-.065-.202-.079-.067-.014-.134-.005-.202-.004-.061 0-.12-.008-.181.004-.076.015-.144.051-.215.083-.045.021-.093.025-.136.053l-.01.01c-.053.034-.092.088-.137.133-.05.049-.107.092-.145.148-.002.003-.007.005-.009.009l-4.683 7.276-2.138-3.288-.007-.007c-.036-.055-.092-.095-.139-.142s-.087-.103-.142-.139l-.007-.007c-.042-.027-.09-.033-.135-.053-.071-.033-.141-.071-.218-.087-.064-.013-.128-.004-.192-.003-.064-.001-.128-.01-.192.003-.077.016-.146.054-.218.087-.045.02-.093.025-.135.053l-.007.007c-.055.036-.095.092-.142.139s-.103.087-.139.142l-.007.007-6.195 9.529h-9.482v-7.991l.001-.005-.001-.005V32.5h9.202a2.975 2.975 0 0 0-.184.998c0 1.654 1.346 3 3 3s3-1.346 3-3a2.95 2.95 0 0 0-.184-.998h27.167V47.498zM5 36.498v6.983l-.003.015v4l.003.015V53.5H2V36.498zm3.999 0v2.004H7v-2.004zM7 40.502h1.999v1.994H7zm0 3.994h1.999v2H7zM23.027 32.5a1 1 0 1 1-.02 0zm31.974 8.016H57v1.98h-1.999zm1.999-2h-1.999v-2.018H57zm-1.999 5.98H57v2h-1.999zM59 51.51l.002-.01-.002-.01v-3.979l.003-.015v-4L59 43.481v-6.983h3V53.5h-3zm3-17.012h-6.999V32.5H62zm-53.001 0H2V32.5h6.999zM7 50.5v-2.004h1.999v.002a1 1 0 0 0 1 1h10.919c.032.003.064.014.097.014h24.001c.024 0 .044-.012.067-.014h8.918a1 1 0 0 0 1-1v-.002H57V50.5zm55-20h-6.999v-2c0-.007-.004-.013-.004-.02V20.5H62zm-60-20h1v1a1 1 0 1 0 2 0v-1h1v1a1 1 0 1 0 2 0v-1h1v1a1 1 0 1 0 2 0v-1h1v1a1 1 0 1 0 2 0v-1h1v1a1 1 0 1 0 2 0v-1h1.002v5H2zm2 7h12.002v1H4zm48.997 3v7H9.999a1 1 0 0 0-1 1v2H2v-10z"></path>
+        </symbol>
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="decor_icon">
+          <path d="M61 2H3a1 1 0 0 0-1 1v58a1 1 0 0 0 1 1h58a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-1 54H47v2h13v2H4v-6h56zM20.714 10h2.7A26.636 26.636 0 0 1 12 21.451v-2.74A14.841 14.841 0 0 0 20.714 10zM12 16.531V10h6.584A12.96 12.96 0 0 1 12 16.531zM25.652 10h2.779C26.737 13.361 21.605 22.053 12 26.481v-2.815C20.5 19.979 24.6 12.271 25.652 10zM52 18.711v2.74A26.73 26.73 0 0 1 40.591 10h2.7A14.841 14.841 0 0 0 52 18.711zM45.416 10H52v6.531A12.96 12.96 0 0 1 45.416 10zM52 23.666v2.815C42.4 22.053 37.263 13.361 35.569 10h2.779C39.4 12.271 43.5 19.979 52 23.666zM48 39v9h-2V28h-2v20h-2V22.041a34.829 34.829 0 0 0 6 4.582V37h2v-9.267q.968.492 2 .928V48h-2v-9zm-8-19.011V44H24V19.989A40.157 40.157 0 0 0 30.656 10h2.688A40.157 40.157 0 0 0 40 19.989zm-18 2.052V48h-2V28h-2v20h-2V36h-2v12h-2V28.661a33.717 33.717 0 0 0 10-6.62zM23 50a1 1 0 0 0 1-1v-3h16v3a1 1 0 0 0 1 1h11v2H12v-2zm37 2h-6V9a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v43H4V4h56z"></path>
+          <path d="M14 30h2v4h-2zM6 56h10v2H6zM18 56h4v2h-4zM31 56h2v2h-2zM35 56h2v2h-2zM41 56h4v2h-4zM6 8h2v2H6zM6 14h2v2H6zM6 20h2v2H6zM6 26h2v2H6zM6 32h2v2H6zM6 38h2v2H6zM6 44h2v2H6zM56 8h2v2h-2zM56 14h2v2h-2zM56 20h2v2h-2zM56 26h2v2h-2zM56 32h2v2h-2zM56 38h2v2h-2zM56 44h2v2h-2z"></path>
+        </symbol>
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="baner_icon">
+          <path d="M63 42.5v-34a1 1 0 0 0-1-1h-8v-1h2a1 1 0 1 0 0-2h-6a1 1 0 1 0 0 2h2v1H40v-1h2a1 1 0 1 0 0-2h-6a1 1 0 1 0 0 2h2v1H26v-1h2a1 1 0 1 0 0-2h-6a1 1 0 1 0 0 2h2v1H12v-1h2a1 1 0 1 0 0-2H8a1 1 0 1 0 0 2h2v1H2a1 1 0 0 0-1 1v34a1 1 0 1 0 0 2h27v14a1 1 0 1 0 2 0v-14h4v14a1 1 0 1 0 2 0v-2a1 1 0 1 0 0-2v-2a1 1 0 1 0 0-2v-2a1 1 0 1 0 0-2v-2h27a1 1 0 1 0 0-2zM3 9.5h58v33H3z"></path>
+          <path d="M38.001 21.5h18a1 1 0 1 0 0-2h-18a1 1 0 1 0 0 2zM38.001 25.5h18a1 1 0 1 0 0-2h-18a1 1 0 1 0 0 2zM38.001 29.5h18a1 1 0 1 0 0-2h-18a1 1 0 1 0 0 2zM38.001 33.498h9a1 1 0 1 0 0-2h-9a1 1 0 1 0 0 2zM10.008 21.498c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3zm0-4a1.001 1.001 0 1 1-1 1c0-.551.448-1 1-1zM32.006 35.514c.04 0 .073-.018.112-.022a.97.97 0 0 0 .205-.042.956.956 0 0 0 .156-.071c.022-.012.046-.017.067-.03s.03-.034.05-.048a1.016 1.016 0 0 0 .267-.301.973.973 0 0 0 .122-.384c.004-.035.021-.065.021-.102 0-.029-.014-.054-.017-.082a.957.957 0 0 0-.042-.209 1.063 1.063 0 0 0-.064-.165c-.016-.029-.018-.063-.036-.092l-9-13.983c-.002-.004-.007-.005-.009-.009-.037-.057-.094-.099-.143-.147-.047-.045-.086-.1-.139-.134l-.01-.01c-.045-.029-.096-.035-.144-.056-.067-.03-.132-.066-.204-.08-.069-.014-.138-.006-.208-.004-.059 0-.116-.008-.175.003-.079.016-.15.053-.224.087-.042.02-.088.024-.128.05-.004.002-.006.007-.01.009-.053.035-.091.088-.137.133-.05.049-.107.091-.145.148-.002.003-.007.005-.009.009l-4.684 7.276-2.137-3.288-.007-.007c-.034-.052-.088-.09-.133-.135-.049-.05-.091-.108-.148-.146l-.006-.006c-.039-.025-.083-.03-.124-.049-.075-.035-.147-.075-.229-.091-.064-.013-.128-.003-.192-.003s-.128-.009-.191.003c-.079.016-.149.054-.223.088-.043.02-.09.025-.131.052-.003.001-.004.004-.007.006-.054.036-.093.091-.14.138-.048.047-.104.088-.141.143l-.007.007-6.5 9.998c-.017.025-.018.054-.031.08a.916.916 0 0 0-.073.184.98.98 0 0 0-.04.198c-.002.029-.017.054-.017.083 0 .035.017.064.02.099a1.05 1.05 0 0 0 .114.373.994.994 0 0 0 .25.297c.027.021.043.051.072.07.033.021.069.03.104.048a1.019 1.019 0 0 0 .441.113h24.004zm-13.707-5.829c.012-.017.021-.034.032-.051l4.675-7.263 7.172 11.143H15.834zm-4.843 3.829H9.85l4.656-7.163 1.789 2.752z"></path>
+        </symbol>
+        <symbol viewbox="0 0 64 64" fill="currentColor" id="posel_icon">
+          <path d="M63 10.992H35.996a1 1 0 0 0-1 1v40.016a1 1 0 0 0 1 1H63a1 1 0 0 0 1-1V11.992a1 1 0 0 0-1-1zM36.996 50.008H59v1H36.996zm3-2V12.992H62v35.016zm21.004 2h1v1h-1zM36.996 12.992h1v35.016h-1zM1 25.992h22.998a1 1 0 0 0 1-1v-13a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1zm1-13H22.998v11H2zM1 42.992h22.998a1 1 0 0 0 1-1v-13a1 1 0 0 0-1-1H1a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1zm1-13h20.998v11H2zM32.002 52.996a1 1 0 0 0 1-1v-36c0-.005-.003-.01-.004-.015a.96.96 0 0 0-.094-.398c-.005-.011-.003-.023-.008-.034l-2.001-4.004c-.338-.678-1.451-.678-1.789 0l-2 4.004c-.006.011-.003.023-.008.035a.981.981 0 0 0-.098.412v36a1 1 0 0 0 1 1zm-2.709-34.295a.997.997 0 0 0 1.414 0l.295-.295v10.476a.99.99 0 0 0-.977-.884h-.011c-.552 0-.994.447-.994 1s.452 1 1.005 1a.99.99 0 0 0 .977-.884v11.88h-2.001V18.409zm-.292 25.293v-1h2.001v1h-.001a1 1 0 1 0 0 2h.001v1.002h-2.001v-1.002a1 1 0 1 0 0-2zm0 7.002v-2h2.001v2zm1-36.767l.783 1.567-.784.784-.782-.781zM3.864 52.98c.046.007.088.028.136.028h7.996a1 1 0 0 0 1-1v-.016h3a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3a1 1 0 0 0-1-.998H4c-2.206 0-4 1.794-4 4a3.997 3.997 0 0 0 3.864 3.986zm9.132-4.988h2v2h-2zM4 46.994h6.996v4.014H4.067c-.023-.002-.043-.014-.067-.014-1.103 0-2-.897-2-2s.897-2 2-2zM21.001 44.992h-2.002a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.002c2.206 0 4-1.794 4-4s-1.794-4-4-4zm0 6h-1.002v-4h1.002c1.103 0 2 .897 2 2s-.897 2-2 2z"></path>
+          <path d="M11.031 17.992a1 1 0 1 0 0-2h-.011c-.552 0-.994.447-.994 1s.453 1 1.005 1z"></path>
+          <path d="M7.001 18.492c0 3.032 2.468 5.5 5.5 5.5a5.502 5.502 0 0 0 4.572-2.448c.022-.033.043-.065.062-.102a5.456 5.456 0 0 0 .866-2.95c0-3.032-2.468-5.5-5.5-5.5s-5.5 2.468-5.5 5.5zm5.5 3.5c-.079 0-.154-.019-.232-.023l1.733-2.311.977 1.303a3.487 3.487 0 0 1-2.478 1.031zm0-7c1.93 0 3.5 1.57 3.5 3.5 0 .15-.026.294-.045.44l-1.154-1.54c-.029-.04-.072-.061-.106-.095-.033-.034-.055-.076-.094-.105-.016-.012-.035-.014-.051-.024-.061-.04-.125-.065-.192-.092-.056-.021-.108-.046-.165-.057-.065-.014-.129-.011-.195-.011-.063.001-.123-.002-.186.01-.06.012-.113.037-.171.06a.901.901 0 0 0-.188.09c-.016.011-.035.013-.051.024-.039.029-.061.071-.094.105-.034.034-.077.055-.106.095l-2.869 3.825a3.477 3.477 0 0 1-1.332-2.726 3.503 3.503 0 0 1 3.499-3.499zM19.003 32.992H5.999a1 1 0 1 0 0 2h13.004a1 1 0 1 0 0-2zM16.001 35.992h-7a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2zM42.053 31.258c.017.061.032.118.061.174a.815.815 0 0 0 .101.149c.043.058.086.11.14.157.018.015.026.036.045.05.041.031.088.046.132.069.039.021.073.044.115.06a.978.978 0 0 0 .352.071h16.007a.987.987 0 0 0 .352-.071c.041-.016.075-.038.113-.059.045-.024.093-.039.135-.07.02-.015.028-.036.046-.052.053-.045.094-.098.136-.152.038-.051.076-.098.104-.153.027-.055.043-.113.061-.174a.971.971 0 0 0 .04-.2c.002-.023.014-.044.014-.068 0-.041-.019-.075-.023-.115a1.016 1.016 0 0 0-.039-.196.993.993 0 0 0-.089-.186c-.02-.033-.025-.071-.049-.104l-6.003-8c-.03-.041-.074-.063-.109-.098-.032-.032-.053-.073-.091-.102-.016-.012-.034-.013-.05-.023-.062-.041-.126-.066-.194-.093-.055-.021-.107-.045-.164-.057-.064-.013-.127-.01-.192-.01-.064 0-.126-.002-.188.01-.06.012-.113.037-.17.059a.95.95 0 0 0-.188.089c-.018.011-.037.013-.054.025-.041.03-.063.074-.098.109-.032.032-.073.053-.102.091l-2.701 3.604-1.202-1.604c-.031-.042-.075-.064-.111-.1-.032-.032-.053-.072-.09-.101-.015-.011-.033-.013-.049-.023-.063-.042-.129-.067-.198-.095-.054-.02-.104-.044-.159-.055-.066-.014-.132-.011-.199-.01-.062 0-.121-.003-.182.009-.06.012-.114.037-.172.06a.913.913 0 0 0-.189.091c-.016.01-.034.012-.05.023-.038.028-.058.069-.091.102-.035.035-.079.058-.11.099l-4.498 6c-.023.031-.029.068-.049.102-.035.06-.066.119-.089.186a1.058 1.058 0 0 0-.04.2c-.004.038-.022.072-.022.112 0 .023.012.044.014.067 0 .07.016.135.036.203zM53 24.654l4.002 5.334h-8zm-6.497 5.334h-1.506l2.5-3.334.753 1.004zM44.5 22.982c1.377 0 2.498-1.121 2.498-2.498s-1.121-2.498-2.498-2.498-2.498 1.121-2.498 2.498 1.121 2.498 2.498 2.498zm0-2.996c.274 0 .498.224.498.498s-.224.498-.498.498-.498-.224-.498-.498.224-.498.498-.498zM59 34.994H43.005a1 1 0 1 0 0 2H59a1 1 0 1 0 0-2zM59 37.994H43.005a1 1 0 1 0 0 2H59a1 1 0 1 0 0-2zM55 40.994h-7.995a1 1 0 1 0 0 2H55a1 1 0 1 0 0-2zM7.029 50a1 1 0 1 0 0-2h-.01c-.552 0-.994.447-.994 1s.452 1 1.004 1z"></path>
+        </symbol>
+        <symbol viewbox="0 0 87.129 87.129" fill="currentColor" id="skill_1_icon">
+          <path d="M43.564 55.433c.361 0 .723-.092 1.047-.277l17.562-9.997v14.62c-3.671 1.572-8.789 2.662-14.309 3.022a2.116 2.116 0 0 0 .275 4.224c5.281-.345 10.133-1.287 14.033-2.698v7.184a2.113 2.113 0 0 0-1.634 2.056v7.435c0 1.17.947 2.117 2.116 2.117.662 0 1.246-.31 1.634-.786.389.476.973.786 1.635.786a2.116 2.116 0 0 0 2.116-2.117v-7.435a2.115 2.115 0 0 0-1.635-2.057V41.185c0-.761-.408-1.463-1.068-1.839L45.2 27.883a2.116 2.116 0 1 0-2.095 3.678l17.199 9.79-16.74 9.529L6.395 29.722 43.564 8.563l20.675 11.769a2.118 2.118 0 0 0 2.094-3.679L44.611 4.288a2.116 2.116 0 0 0-2.094 0L1.069 27.883a2.118 2.118 0 0 0 0 3.678l41.448 23.595c.325.184.686.277 1.047.277zM86.059 27.883l-12.047-6.859a2.116 2.116 0 1 0-2.095 3.678l8.816 5.02-6.328 3.602a2.117 2.117 0 0 0 2.095 3.68l9.559-5.441a2.117 2.117 0 0 0 0-3.68zM17.576 48.875a2.116 2.116 0 0 0-2.116 2.117v4.171c0 4.777 5.464 8.68 14.991 10.71a2.112 2.112 0 0 0 2.511-1.629 2.117 2.117 0 0 0-1.63-2.511c-7.642-1.627-11.641-4.537-11.641-6.569v-4.171a2.115 2.115 0 0 0-2.115-2.118z"></path>
+          <path d="M37.054 63.279a2.137 2.137 0 0 0-.621 1.496c0 .558.227 1.1.621 1.496.396.395.938.621 1.496.621a2.124 2.124 0 0 0 2.116-2.117c0-.557-.226-1.101-.621-1.496-.783-.783-2.208-.783-2.991 0z"></path>
+        </symbol>
+        <symbol viewbox="0 0 75.087 75.087" fill="currentColor" id="skill_2_icon">
+          <path d="M9.703 41.418h3.224c-.004.133-.021.263-.021.396v5.475a2.117 2.117 0 0 0 4.233 0v-5.475c0-4.278 3.482-7.759 7.761-7.759h1.646c8.099 0 9.911-7.57 11.665-14.892l.001-.007 2.472-10.315A4.697 4.697 0 0 1 42.81 5.91a4.684 4.684 0 0 1 3.575-.567 4.699 4.699 0 0 1 2.929 2.126 4.694 4.694 0 0 1 .568 3.575l-1.98 8.271a2.118 2.118 0 0 0 2.06 2.61c.957 0 1.824-.652 2.057-1.624l1.979-8.27a8.898 8.898 0 0 0-1.076-6.775 8.9 8.9 0 0 0-5.551-4.028 8.894 8.894 0 0 0-6.776 1.076 8.903 8.903 0 0 0-4.027 5.552l-2.472 10.316-.002.006c-2.241 9.359-3.722 11.644-7.548 11.644H24.9c-4.99 0-9.275 3.066-11.079 7.411a2.13 2.13 0 0 0-.439-.047H9.703C4.352 37.186 0 41.537 0 46.888v10.159a9.693 9.693 0 0 0 2.386 6.369 2.116 2.116 0 0 0 2.987.204 2.117 2.117 0 0 0 .205-2.987 5.465 5.465 0 0 1-1.345-3.589V46.888a5.475 5.475 0 0 1 5.47-5.47zM24.9 69.878c-4.279 0-7.761-3.482-7.761-7.761v-4.169a2.116 2.116 0 1 0-4.233 0v4.169c0 6.613 5.381 11.994 11.994 11.994a2.117 2.117 0 1 0 0-4.233z"></path>
+          <path d="M67.65 27.332H47.562c-4.1 0-7.435 3.335-7.435 7.435a7.39 7.39 0 0 0 .734 3.202h-2.056c-4.1 0-7.434 3.334-7.434 7.434 0 3.154 1.977 5.849 4.753 6.928a7.389 7.389 0 0 0-1.001 3.71c0 2.962 1.746 5.517 4.259 6.712a7.365 7.365 0 0 0-1.132 3.924c0 4.1 3.335 7.435 7.435 7.435h14.461c4.1 0 7.435-3.335 7.435-7.435a7.4 7.4 0 0 0-1.281-4.168 7.433 7.433 0 0 0 3.782-6.468 7.402 7.402 0 0 0-1.281-4.168 7.437 7.437 0 0 0 3.783-6.47 7.391 7.391 0 0 0-1.281-4.167 7.436 7.436 0 0 0 3.783-6.469c.001-4.1-3.335-7.435-7.436-7.435zm-23.29 7.436a3.206 3.206 0 0 1 3.202-3.203H67.65a3.206 3.206 0 0 1 3.203 3.203 3.206 3.206 0 0 1-3.203 3.202H47.562a3.206 3.206 0 0 1-3.202-3.202zm-5.553 7.434H65.15a3.205 3.205 0 0 1 3.202 3.201 3.206 3.206 0 0 1-3.202 3.202H38.807a3.206 3.206 0 0 1-3.201-3.202 3.204 3.204 0 0 1 3.201-3.201zm3.752 10.637H62.65c1.765 0 3.2 1.437 3.2 3.202a3.204 3.204 0 0 1-3.2 3.201H42.559a3.204 3.204 0 0 1-3.2-3.201 3.203 3.203 0 0 1 3.2-3.202zm17.588 17.039h-14.46c-1.766 0-3.202-1.436-3.202-3.201s1.437-3.202 3.202-3.202h14.461c1.765 0 3.201 1.437 3.201 3.202s-1.437 3.201-3.202 3.201zM32.473 69.878a2.116 2.116 0 1 0 0 4.233h.025a2.105 2.105 0 0 0 2.103-2.117 2.126 2.126 0 0 0-2.128-2.116z"></path>
+        </symbol>
+        <symbol viewbox="0 0 72.601 72.601" fill="currentColor" id="skill_3_icon">
+          <path d="M28.051 23.396l5.084-10.301a2.118 2.118 0 0 0-3.796-1.874l-4.591 9.304L3.399 23.63a2.116 2.116 0 0 0-1.173 3.609l15.448 15.058-1.438 8.385a2.115 2.115 0 0 0 2.089 2.473 2.118 2.118 0 0 0 2.084-1.759l1.626-9.481a2.118 2.118 0 0 0-.609-1.873L8.251 27.201l18.207-2.648a2.111 2.111 0 0 0 1.593-1.157z"></path>
+          <path d="M47.347 56.833l-10.169-5.346a2.124 2.124 0 0 0-1.97 0l-18.937 9.956C9.784 56.307 5.311 48.696 4.328 39.909a2.117 2.117 0 0 0-4.206.472c2.056 18.368 17.563 32.22 36.072 32.22a2.116 2.116 0 1 0 0-4.232 32.01 32.01 0 0 1-15.944-4.234l15.944-8.382 9.184 4.827a2.116 2.116 0 1 0 1.969-3.747zM70.377 34.183A2.117 2.117 0 0 0 68.26 36.3c0 9.044-3.879 17.681-10.507 23.724l-3.04-17.726 6.988-6.812a2.117 2.117 0 0 0-2.955-3.031l-7.785 7.588a2.115 2.115 0 0 0-.608 1.873l3.834 22.359a2.118 2.118 0 0 0 2.084 1.76l.034-.003c.012 0 .024.004.037.004.434 0 .871-.133 1.247-.408 9.333-6.819 14.904-17.783 14.904-29.327a2.117 2.117 0 0 0-2.116-2.118zM36.193 0C24.98 0 14.57 5.063 7.634 13.892a2.117 2.117 0 0 0 3.328 2.616c5.86-7.459 14.526-11.865 23.934-12.24l9.44 19.128a2.115 2.115 0 0 0 1.594 1.157l22.449 3.265c.104.016.206.022.308.022.193 0 .379-.035.56-.085.039-.01.077-.016.116-.027.009-.003.017-.009.026-.012.071-.025.137-.059.205-.09a2.111 2.111 0 0 0 1.128-2.565C65.843 10.071 51.968 0 36.193 0zm3.501 4.427A31.955 31.955 0 0 1 65.43 23.113l-17.791-2.587-7.945-16.099zM41.849 68.246a2.15 2.15 0 0 0-.614 1.495c0 .558.226 1.101.614 1.496.395.395.945.621 1.503.621a2.124 2.124 0 0 0 2.117-2.117c0-.557-.226-1.101-.621-1.495-.791-.783-2.21-.79-2.999 0z"></path>
+        </symbol>
+        <symbol viewbox="0 0 81.915 81.915" fill="currentColor" id="skill_4_icon">
+          <path d="M47.494 73.588c.98 4.747 5.193 8.326 10.227 8.326a2.116 2.116 0 1 0 0-4.233 6.217 6.217 0 0 1-6.21-6.209c0-1.17-.947-2.117-2.116-2.117h-16.74a2.116 2.116 0 0 0-2.116 2.117 6.216 6.216 0 0 1-6.209 6.209 2.116 2.116 0 1 0 0 4.233h16.629a2.116 2.116 0 1 0 0-4.233H32.72a10.405 10.405 0 0 0 1.836-4.093h12.938zM16.999 34.305c1.584 11.032 10.629 19.682 21.844 20.659v5.707h-3.438a2.116 2.116 0 0 0 0 4.234h11.107a2.117 2.117 0 1 0 0-4.234h-3.437V54.96a24.102 24.102 0 0 0 10.841-3.654 2.117 2.117 0 1 0-2.27-3.574 19.907 19.907 0 0 1-10.687 3.098c-11.015 0-19.978-8.962-19.978-19.978v-8.923a2.117 2.117 0 0 0-4.233 0v8.024a9.214 9.214 0 0 1-5.807-4.301 9.16 9.16 0 0 1-1.24-4.608v-5.79h9.164a2.116 2.116 0 0 0 2.116-2.116V4.233h17.274a2.116 2.116 0 0 0 0-4.233h-23.75a2.117 2.117 0 0 0 0 4.233h2.244v6.787H7.585a2.117 2.117 0 0 0-2.117 2.117v7.906c0 2.371.628 4.702 1.816 6.74a13.463 13.463 0 0 0 9.715 6.522zM56.042 4.233h4.893v26.618c0 3.455-.896 6.86-2.59 9.845a2.116 2.116 0 1 0 3.682 2.089 24.174 24.174 0 0 0 2.887-8.49c6.506-.911 11.533-6.498 11.533-13.252v-7.906a2.116 2.116 0 0 0-2.116-2.117h-9.162V4.233h2.509A2.117 2.117 0 1 0 67.677 0H56.042a2.116 2.116 0 0 0 0 4.233zm16.172 11.02v5.79c0 4.324-3.013 7.948-7.046 8.908V15.253h7.046zM47.372 4.231c.558 0 1.101-.226 1.496-.621s.62-.938.62-1.496a2.13 2.13 0 0 0-.62-1.496c-.791-.79-2.202-.79-2.992 0-.395.395-.62.938-.62 1.496a2.121 2.121 0 0 0 2.116 2.117z"></path>
+          <path d="M39.262 12.193l-5.408 7.256a2.118 2.118 0 0 0 3.395 2.529l1.594-2.138v15.77h-3.291a2.117 2.117 0 0 0 0 4.233h10.812a2.116 2.116 0 0 0 0-4.233h-3.289V13.458a2.116 2.116 0 0 0-3.813-1.265z"></path>
+        </symbol>
+      </svg>
+    </div>
+    <!-- Header -->
+    <div class="sticky">
+      <div class="container">
+        <div class="sticky-left"><a class="sticky-brand" href=""><img src="img/logo_ro.png" alt="logo"/></a></div>
+        <div class="sticky-right">
+          <nav class="nav sticky-nav">
+            <ul class="list">
+              <li class="list-item"><a class="list-item-link" href="">Широкоформатная печать</a></li>
+              <li class="list-item"><a class="list-item-link" href="">Интерьерная печать</a></li>
+              <li class="list-item"><a class="list-item-link" href="">УФ печать</a></li>
+              <li class="list-item"><a class="list-item-link" href="">Элементы декора</a></li>
+              <li class="list-item"><a class="list-item-link" href="">Наружная реклама</a></li>
+              <li class="list-item"><a class="list-item-link" href="">POS материалы</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar-left">
+          <nav class="nav topbar-nav">
+            <ul class="list social-list">
+              <li class="list-item"><a class="list-item-link facebook" href="https://www.facebook.com/Sonaris" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li class="list-item"><a class="list-item-link youtube" href="https://www.youtube.com/channel/UCSSy6lgPE5nKTYsZcEa_aPg" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+              <li class="list-item"><a class="list-item-link twitter" href="https://twitter.com/SonarisMoldova" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="topbar-right">
+          <nav class="nav topbar-nav">
+            <ul class="list contacts-list">
+              <li class="list-item"><a class="list-item-link" href="tel:+37379798757"><i class="fa fa-phone"></i><span>+373 79 798 757</span></a></li>
+              <li class="list-item"><a class="list-item-link" href="mailto:office@sonaris.md"><i class="fa fa-envelope"></i><span>office@sonaris.md</span></a></li>
+            </ul>
+          </nav>
+          <nav class="nav topbar-nav">
+            <ul class="list lang-list">
+              <li class="list-item current"><a class="list-item-link" href=""><img class="lang-list-img" src="img/ru.svg" alt="RU"/></a></li>
+              <li class="list-item"><a class="list-item-link" href=""><img class="lang-list-img" src="img/md.svg" alt="MD"/></a></li>
+              <li class="list-item"><a class="list-item-link" href=""><img class="lang-list-img" src="img/en.svg" alt="EN"/></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <div class="header-left"><a class="header-brand" href=""><img src="img/logo_ro.png" alt="logo"/></a></div>
+        <div class="header-right">
+          <nav class="nav header-nav">
+            <ul class="list">
+              <li class="list-item"><a class="list-item-link" href="">Портфолио</a></li>
+              <li class="list-item"><a class="list-item-link" href="">О компании</a></li>
+              <li class="list-item"><a class="list-item-link" href="">Контакты</a></li>
+              <li class="list-item">
+                <button class="btn btn-danger btn-rounded waves-effect" data-mfp-src="#callback-form"><i class="fa fa-phone"></i><span>Заказать звонок</span></button>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn btn-bars" data-toggle="navbar"><i class="fa fa-bars"></i></button>
+        </div>
+        <form class="popup-small mfp-hide" id="callback-form">
+          <h3 class="popup-small-header">Обратный звонок</h3>
+          <p>Если у вас по какой-либо причине не получается дозвониться нам по телефону, либо у вас нет времени, то вы можете воспользоваться услугой "Заказать обратный звонок".</p>
+          <div class="form-item">
+            <input class="input" type="text" name="callback-name" placeholder="Ваше имя" required="required"/>
+          </div>
+          <div class="form-item">
+            <input class="input" type="tel" name="callback-tel" placeholder="Номер телефона" required="required"/>
+          </div>
+          <div class="form-control">
+            <button class="btn btn-danger btn-md btn-block btn-rounded waves-effect" type="submit">Заказать звонок</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="owl-carousel fullscreen"><img class="fullscreen-item" src="img/slide_1.png" alt=""/><img class="fullscreen-item" src="img/slide_2.png" alt=""/><img class="fullscreen-item" src="img/slide_3.png" alt=""/><img class="fullscreen-item" src="img/slide_4.png" alt=""/><img class="fullscreen-item" src="img/slide_5.png" alt=""/><img class="fullscreen-item" src="img/slide_6.png" alt=""/></div>
+    <div class="section section-services">
+      <div class="services-navbar">
+        <div class="container">
+          <nav class="nav services-nav">
+            <ul class="list">
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="1">
+                  <svg class="services-icon">
+                    <use xlink:href="#print_icon"></use>
+                  </svg><span class="services-title">Широкоформатная печать</span></a></li>
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="2">
+                  <svg class="services-icon">
+                    <use xlink:href="#inter_icon"></use>
+                  </svg><span class="services-title">Интерьерная печать</span></a></li>
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="3">
+                  <svg class="services-icon">
+                    <use xlink:href="#uvlak_icon"></use>
+                  </svg><span class="services-title">УФ печать</span></a></li>
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="4">
+                  <svg class="services-icon">
+                    <use xlink:href="#decor_icon"></use>
+                  </svg><span class="services-title">Элементы декора</span></a></li>
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="5">
+                  <svg class="services-icon">
+                    <use xlink:href="#baner_icon"></use>
+                  </svg><span class="services-title">Наружная реклама</span></a></li>
+              <li class="list-item"><a class="list-item-link waves-effect" href="" data-color="6">
+                  <svg class="services-icon">
+                    <use xlink:href="#posel_icon"></use>
+                  </svg><span class="services-title">POS материалы</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Content -->
+    <div class="section section-intro">
+      <div class="container">
+        <div class="row">
+          <div class="col md-6"><a class="waves-effect" href=""><img class="section-intro-img" src="img/logo_big.png" alt=""/></a></div>
+          <div class="col md-6">
+            <h2 class="section-intro-title">Компания Sonaris-Com</h2>
+            <p class="section-intro-text">Компания Sonaris-Com была создана в мае 2005 года в Республике Молдова, основным видом деятельности являлось <b>производство рекламы</b> и <b>полиграфия</b>. Агентство быстро развивалось, так как предлагало клиентам комплексные решения в ограниченное время, по оптимальной цене. Сегодня, рекламное агентство Sonaris-Com имеет несколько производственных цехов и отделов, которые были созданы и развиты за эти годы.</p><a class="btn btn-success btn-lg btn-rounded waves-effect" href="">Читать далее ...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-skills">
+      <div class="container">
+        <div class="section-skills-list">
+          <div class="row">
+            <div class="col xs-6 sm-3">
+              <div class="skill">
+                <svg class="skill-icon">
+                  <use xlink:href="#skill_1_icon"></use>
+                </svg><span class="skill-number">14</span><span class="skill-text">Лет на рынке</span>
+              </div>
+            </div>
+            <div class="col xs-6 sm-3">
+              <div class="skill">
+                <svg class="skill-icon">
+                  <use xlink:href="#skill_2_icon"></use>
+                </svg><span class="skill-number">200</span><span class="skill-text">Довольных клиентов</span>
+              </div>
+            </div>
+            <div class="col xs-6 sm-3">
+              <div class="skill">
+                <svg class="skill-icon">
+                  <use xlink:href="#skill_3_icon"></use>
+                </svg><span class="skill-number">143</span><span class="skill-text">Проведено мероприятий</span>
+              </div>
+            </div>
+            <div class="col xs-6 sm-3">
+              <div class="skill">
+                <svg class="skill-icon">
+                  <use xlink:href="#skill_4_icon"></use>
+                </svg><span class="skill-number">108</span><span class="skill-text">Рекламных кампаний</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-portfolio">
+      <h2 class="section-portfolio-title">Портфолио</h2>
+      <div class="portfolio"><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/1" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/2" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/3" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/4" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/5" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/6" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/7" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/8" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/9" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a><a class="portfolio-item waves-effect" href="portfolio-item.html"><img class="portfolio-item-img" src="https://loremflickr.com/320/320/10" alt=""/><span class="btn btn-white btn-rounded">Подробнее</span></a>
+      </div><a class="btn btn-primary btn-lg btn-rounded waves-effect" href="">Больше работ</a>
+    </div>
+    <!-- Footer -->
+    <div class="section section-callback">
+      <div class="container">
+        <div class="row">
+          <div class="col md-4">
+            <h2 class="section-callback-header"><strong>Закажите</strong><span>обратный звонок</span></h2>
+          </div>
+          <div class="col md-8">
+            <form class="form callback-form">
+              <div class="form-item">
+                <input class="input" type="text" name="callback-name" placeholder="Ваше имя" required="required"/>
+              </div>
+              <div class="form-item">
+                <input class="input" type="tel" name="callback-tel" placeholder="Номер телефона" required="required"/>
+              </div>
+              <div class="form-control">
+                <input class="btn btn-danger btn-md" type="submit" value="Отправить"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-clients">
+      <div class="container">
+        <h2 class="section-clients-title">Наши Клиенты</h2>
+        <div class="owl-carousel clients">
+          <div class="client">Maximum</div>
+          <div class="client">Moldcell</div>
+          <div class="client">Moldexpo</div>
+          <div class="client">Registru</div>
+          <div class="client">Top-Shop</div>
+          <div class="client">Dansicons</div>
+          <div class="client">Zolușca</div>
+          <div class="client">Gedeon Richter</div>
+          <div class="client">Moldtelecom</div>
+          <div class="client">Nestle</div>
+          <div class="client">Aridon</div>
+          <div class="client">BT Leasing</div>
+          <div class="client">Teva</div>
+          <div class="client">Kraft</div>
+          <div class="client">Moldindconbank</div>
+          <div class="client">BCR</div>
+          <div class="client">RoofArt</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col md-3 sm-6">
+            <div class="footer-contacts">
+              <h4>Sonaris-Com S.R.L.</h4>
+              <nav class="nav">
+                <ul class="list contacts-list">
+                  <li class="list-item"><i class="fa fa-map-signs"></i><span>Молдова, Кишинев, <span>бул. Штефан чел Маре 196</span></span></li>
+                  <li class="list-item"><a class="list-item-link" href="tel:+37379798757"><i class="fa fa-phone"></i><span>+373 79 798 757</span></a></li>
+                  <li class="list-item"><a class="list-item-link" href="tel:+37322292404"><i class="fa fa-print"></i><span>+373 22 292 404</span></a></li>
+                  <li class="list-item"><a class="list-item-link" href="mailto:office@sonaris.md"><i class="fa fa-envelope"></i><span>office@sonaris.md</span></a></li>
+                </ul>
+              </nav>
+              <nav class="nav">
+                <ul class="list social-list">
+                  <li class="list-item"><a class="list-item-link facebook" href="https://www.facebook.com/Sonaris" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                  <li class="list-item"><a class="list-item-link youtube" href="https://www.youtube.com/channel/UCSSy6lgPE5nKTYsZcEa_aPg" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                  <li class="list-item"><a class="list-item-link twitter" href="https://twitter.com/SonarisMoldova" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col md-3 sm-6">
+            <div class="footer-services">
+              <h4>Наши услуги</h4>
+              <nav class="nav topbar-nav">
+                <ul class="list services-list">
+                  <li class="list-item"><a class="list-item-link" href="">Широкоформатная печать</a></li>
+                  <li class="list-item"><a class="list-item-link" href="">Интерьерная печать</a></li>
+                  <li class="list-item"><a class="list-item-link" href="">УФ печать</a></li>
+                  <li class="list-item"><a class="list-item-link" href="">Элементы декора</a></li>
+                  <li class="list-item"><a class="list-item-link" href="">Наружная реклама</a></li>
+                  <li class="list-item"><a class="list-item-link" href="">POS материалы</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col md-6">
+            <div class="footer-map">
+              <div id="gmap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">Copyright 2005-2013. Sonaris</div>
+    </div>
+    <!-- Scripts-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLa52E3EJeehDidU_gDBx4B4NMzh01hiY"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

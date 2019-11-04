@@ -1,0 +1,354 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bs_sonaris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-25 13:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: archive-portfolio.php:10 front-page.php:158 inc/post-type.php:38
+#: inc/post-type.php:39 inc/post-type.php:49
+msgid "Portfolio"
+msgstr ""
+
+#: single-portfolio.php:7
+msgid "Main Page"
+msgstr ""
+
+#: single-portfolio.php:22
+msgid "Publish"
+msgstr ""
+
+#: single-portfolio.php:22
+msgid "in"
+msgstr ""
+
+#: single-portfolio.php:58
+msgid "Order service"
+msgstr ""
+
+#: single-portfolio.php:83
+msgid "Another works"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:162
+msgid "request a call"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:23
+msgid "Header menu"
+msgstr ""
+
+#: functions.php:65
+msgid "Language"
+msgstr ""
+
+#: functions.php:67
+msgid "Add language wiget here"
+msgstr ""
+
+#: front-page.php:126
+msgid "Read more"
+msgstr ""
+
+#: front-page.php:177 template-parts/content-portfolio.php:8
+msgid "More"
+msgstr ""
+
+#: front-page.php:182
+msgid "More works"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:50 template-parts/content-page.php:22
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:35 inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/post-type.php:9 inc/post-type.php:10
+msgid "Slider"
+msgstr ""
+
+#: inc/post-type.php:11 inc/post-type.php:12 inc/post-type.php:40
+#: inc/post-type.php:41
+msgid "Add new"
+msgstr ""
+
+#: inc/post-type.php:13 inc/post-type.php:42
+msgid "Edit new"
+msgstr ""
+
+#: inc/post-type.php:14
+msgid "New slide"
+msgstr ""
+
+#: inc/post-type.php:15
+msgid "View slide"
+msgstr ""
+
+#: inc/post-type.php:16
+msgid "Search slide"
+msgstr ""
+
+#: inc/post-type.php:17 inc/post-type.php:46
+msgid "Not found"
+msgstr ""
+
+#: inc/post-type.php:18 inc/post-type.php:47
+msgid "Not found in trash"
+msgstr ""
+
+#: inc/post-type.php:20
+msgid "Slides"
+msgstr ""
+
+#: inc/post-type.php:43
+msgid "New portfolio"
+msgstr ""
+
+#: inc/post-type.php:44
+msgid "View portfolio"
+msgstr ""
+
+#: inc/post-type.php:45
+msgid "Search portfolio"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/carbon-fields/cb-page.php:11
+msgid "About options"
+msgstr ""
+
+#: inc/carbon-fields/cb-page.php:14 inc/carbon-fields/cb-post-type.php:14
+msgid "Slider image url"
+msgstr ""
+
+#: inc/carbon-fields/cb-page.php:15 inc/carbon-fields/cb-post-type.php:15
+msgid "Slider image caption"
+msgstr ""
+
+#: inc/carbon-fields/cb-term-type.php:15
+msgid "Print category svg text"
+msgstr ""
+
+#: inc/carbon-fields/cb-term-meta.php:16
+msgid "Print category svg icon id"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:10
+msgid "Basic Options"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:11
+msgid "Images"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:12
+msgid "Logo"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:13
+msgid "Set dimensions 240x40"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:16
+msgid "Logo big"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:17
+msgid "Set dimensions 720x720"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:20
+msgid "Contacts"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:21
+msgid "Phone"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:23
+msgid "Email"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:24
+msgid "Facebook"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:26
+msgid "Twitter"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:28
+msgid "Google"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:30
+msgid "Youtube"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:31
+msgid "start with https://"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:37
+msgid "Rating block"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:40
+msgid "Rating icon"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:41
+msgid "Rating count"
+msgstr ""
+
+#: inc/carbon-fields/cb.php:42
+msgid "Rating text"
+msgstr ""
+
+#. Name of the theme
+msgid "bs_sonaris"
+msgstr ""
+
+#. Description of the theme
+msgid "Description"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Author of the theme
+msgid "Underscores.me"
+msgstr ""
