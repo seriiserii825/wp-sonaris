@@ -58,7 +58,7 @@ jQuery(document).ready(function ($) {
 
 	// Inputs Phone
 	$('[type=tel]').inputmask({
-		mask: '+373 (999) 999 999',
+		mask: '+373 (99) 999 999',
 		showMaskOnHover: false,
 		placeholder: '#'
 	});
@@ -194,4 +194,30 @@ jQuery(document).ready(function ($) {
 		$('#js-close-search').hide();
 	});
 
+	let showPhonePopup = function(){
+		$('input[type="tel"]').on('click', function () {
+			let htmlElement = '';
+			if(location.href.includes('ru')){
+				if(!$(this).next().hasClass('phone-popup')){
+					let htmlElement = '<span class="phone-popup">вводите номер телефона без "0"</span>';
+					$(htmlElement).insertAfter($('input[type="tel"]'));
+				}
+			}else if(location.href.includes('en')){
+				if(!$(this).next().hasClass('phone-popup')) {
+					let htmlElement = '<span class="phone-popup">enter phone number without "0"</span>';
+					$(htmlElement).insertAfter($('input[type="tel"]'));
+				}
+			}else{
+				if(!$(this).next().hasClass('phone-popup')) {
+					let htmlElement = '<span class="phone-popup">introduceti numarul de telefon fara "0"</span>';
+					$(htmlElement).insertAfter($('input[type="tel"]'));
+				}
+			}
+		});
+
+		$('input[type="tel"]').on('blur', function () {
+			$('.phone-popup').remove();
+		});
+	};
+	showPhonePopup();
 });
